@@ -1,7 +1,6 @@
 #!/bin/bash
 #SBATCH -q batch
 #SBATCH -N 1 # number of nodes
-###SBATCH -n 4 # number of cores
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=32G # memory pool for all cores
 #SBATCH --time=24:00:00 # time (D-HH:MM)
