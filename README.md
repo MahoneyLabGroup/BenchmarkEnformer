@@ -13,3 +13,6 @@ torun_enformer.sh: bash script to run run_enformer.py for 21 chromesomes (1-19,X
                     it will launch 168 (21 * 8) jobs 
                     
                     sbatch torun_enformer.sh
+
+calc_qtl_coeff.Rmd: R script to calcualte 8 allel effects for each gene using the DO kidney dataset
+                    output: data/coeff.csv
